@@ -1,0 +1,58 @@
+
+.bg-zepto {
+  background-color: #8B00FF !important;
+}
+
+.btn-zepto {
+  background-color: #8B00FF;
+  border-color: #8B00FF;
+  color: white;
+  letter-spacing: 0.3px;
+}
+
+.btn-zepto:hover {
+  background-color: #7600D6;
+  border-color: #7600D6;
+  color: white;
+}
+
+
+.product-card {
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1) !important;
+}
+
+.product-emoji {
+  font-size: 60px;
+}
+
+
+.empty-emoji {
+  font-size: 80px;
+}
+
+
+.cart-item-emoji {
+  font-size: 40px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.sticky-top {
+  top: 0;
+  z-index: 1020;
+}
+
+
+body {
+  background-color: #f8f9fa;
+}
