@@ -17,11 +17,11 @@ const cartSlice = createSlice({
     
     removeItem: (state, action) => {
       const productName = action.payload;
-      const product = state.items.find(item => item.name === productName);
+      const product = state.items.find(item => item.name === productName);//returns first match element in the array
       
       if (product) {
         state.total = state.total - product.price;
-        state.items = state.items.filter(item => item.name !== productName);
+        state.items = state.items.filter(item => item.name !== productName);//returns array of elements that meets the condition
       }
     },
     
